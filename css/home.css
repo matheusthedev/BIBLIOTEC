@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body {
+    height: 100%;
+}
+body {
+    /* background-color: dodgerblue; */
+    
+}
+header {
+    background-color: #26333d;
+    height: 100px;
+    width: 100%;
+}
+.Layout-grid {
+    margin: 0 auto;
+    width: 100%;
+    /* border: 3px solid snow; */
+    max-width: 992px;
+}
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    height: 100%;
+    /* border: 3px solid snow; */
+}
+header nav a {
+    color: #e9f0ef;
+    text-decoration: none;
+}
+.porque-usar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+    margin-top: 0;
+    /* border: 2px solid salmon; */
+    background-color: whitesmoke;
+}
+.porque-usar h1 {
+    width: 100%;
+    text-align: center;
+    text-decoration: underline aqua;
+    font-family: "Montserrat", system-ui;
+    border: 1px solid black;
+}
+.Bibliotec-flex {
+    width: 992px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+     /* border: 2px solid salmon;*/
+}
+.motivo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 70%;
+    border-radius: 25px;
+    border: 3px solid black;
+    background-color: snow;
+}
+.Borda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px solid aqua;
+    margin-top: -40px;
+    border-radius: 50px;
+    border: 4px solid aqua; 
+    height: 75px;
+    width: 75px;
+    background-color: azure;
+}
+.motivo img {
+    width: 40px;
+    height: 40px;
+}
+.motivo p {
+    margin-bottom: 40px;
+}
+
+section h1 {
+    width: 100%;
+    text-align: center;
+    text-decoration: underline aqua;
+    font-family: "Montserrat", system-ui;
+    margin-bottom: 40px;
+}
+
+section img {
+    
+}
+
+    
