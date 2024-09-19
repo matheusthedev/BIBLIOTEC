@@ -12,11 +12,11 @@ html body {
 }
 
 body {
-    /* background-color: dodgerblue; */
     font-family: "Montserrat", system-ui;
     display: flex;
     flex-direction: column;
-
+    background-image: url("login-bk-desktop.png");
+    background-repeat: no-repeat;
 }
 
 header {
@@ -48,11 +48,90 @@ header nav {
     /* border: 3px solid snow; */
 }
 
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
 nav a:hover {
     color: #2FD6CB;
 }
+/*** fim cabeçalho ***/
 
-header nav a {
-    color: #e9f0ef;
+.login-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.login {
+    background-color: #fbfbfb49;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 750px;
+    max-width: 90%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     margin-top: 70px;
+    border-radius: 15px; 
+    gap: 30px;
+}
+
+label {
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #007bff;
+}
+
+.forgot-password {
+    font-size: 12px;
+    color: #007bff;
+    text-align: right;
     text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
 }

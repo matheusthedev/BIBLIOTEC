@@ -1,34 +1,49 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login-Bibliotec</title>
-    <link rel="stylesheet" href="css/login.css">
+    <title>Login - A sua biblioteca digital</title>
+    <link rel="stylesheet" href="./CSS/login.css">
+    
+    <style>
+        body {
+            background-image: url("imagens/login-bk-desktop.png");
+            background-size: 100%;
+        }
+    </style>
+
 </head>
+
 <body>
     <header>
-        <div class="layout-grid header-flex">
-            <img src="./imagens/logo-desktop.svg" alt="Logo da marca da BiblioTec">
+        <div class="Layout-grid header-flex" <img src="imagens/logo-desktop.svg"
+            alt="Um livro aberto com o texto bibliotec ao lado">
             <nav>
-                <a href="#">Quem somos</a>
-                <a href="#">Nosso acervo</a>
+                <a href="index.html">Voltar</a>
+                <a href="#">Quem Somos</a>
+                <a href="#">Nosso Acervo</a>
                 <a href="#">Login</a>
             </nav>
         </div>
-        </div>
     </header>
 
-    <main>
-        <form action="#">
-            <div class="layout-grid">
-                <h1>Entre Na Bibliotec</h1>
-                <label for="">Login</label>
-                <input type="text">
-                <label for="">Senha</label>
-                <input type="text">
-            </div>
+    <main class="login-flex Layout-grid">
+        <form class="login">
+            <h1>Entre na Biblio Tec</h1>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="email@alunosenai.com" required>
+            
+            <label for="password">Senha</label>
+            <input type="password" id="password" placeholder="******" required>
+
+            <a href="#" class="forgot-password">Esqueci minha senha</a>
+
+            <button type="submit">ENTRAR</button>
+        </div>
         </form>
-    </main>
+        </main>
 </body>
+
 </html>
