@@ -12,11 +12,12 @@
     <header>
         <div class="Layout-grid header-flex">
             <img src="./imagens/logo-desktop.svg" alt="Um livro aberto com o texto bibliotec ao lado">
-            <nav>
+            <nav id="menu" class="menu">
                 <a href="#">Quem Somos</a>
                 <a href="#">Nosso Acervo</a>
                 <a href="login.html">Login</a>
             </nav>
+            <img src="imagens/menu-hamburger.png" alt="Menu hamburguer" onclick="mostrarMenu()">
         </div>
     </header>
 
@@ -137,7 +138,7 @@
                     <a href="#">Suporte do <br> Usuario</a>
                 </section>
 
-                <section>
+                <section class="quem-somos">
                     <h2>Quem Somos</h2>
                     <a href="#">Clientes</a>
                     <a href="#">Benefícios</a>
@@ -161,6 +162,12 @@
             </section>
         </div>
     </footer>
+
+    <script>
+        function mostrarMenu(){
+            document.getElementById("menu").classList.toggle("mostrar-menu"):
+        }
+    </script>
 </body>
 
 </html>

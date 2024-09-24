@@ -387,3 +387,123 @@ h1 {
 .text-flex p {
     font-size: 20px;
 }
+
+.quem-somos {
+
+}
+
+@media screen and (max-width: 992px) {
+    
+    /* header nav {
+        display: none;
+    } */
+    
+    .banner-flex {
+        height: auto;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .banner-flex img {
+        display: none;
+    }
+    
+    
+    
+    h1 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .porque-usar {
+        height: auto;
+        padding: 40px;
+    }
+     section .Bibliotec-flex {
+        display: flex;
+         /* justify-content: center;  */
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap; 
+    }
+
+    .motivo {
+        margin-bottom: 40px;
+    }
+
+    .livro {
+        height: auto;
+        align-items: center;
+        
+    }
+
+    .Top-4 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #totalmente-gratis {
+        height: auto;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .totalmente-flex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .totalmente-flex img {
+        display: none;
+    }
+    .totalmente-flex p {
+        margin-left: 45px;
+    }
+    .totalmente-flex button {
+        margin-left: 26%;
+    }
+
+    .logos {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .info {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .apps {
+        align-items: start;
+        flex-wrap: wrap;
+    }
+    .apps h2 {
+        display: none;
+    }
+
+    .quem-somos {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: start;
+    }
+
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        /* camada */
+        z-index: 10;
+
+        width: 80%;
+        height: 100%;
+        background-color: red;
+
+    }
+
+    .mostra-menu {
+        left: 0;
+    }
+}
